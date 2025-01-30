@@ -1,0 +1,59 @@
+.shoppingCard {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: inherit;
+    margin-bottom: 2rem;
+    transition: .2s ease;
+  }
+
+  .shoppingCard:hover {
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.479);
+    transform: translateY(-10px);
+  }
+
+  .productName {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .shoppingCard img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0;
+  }
+  
+  .productPrice {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .addToCart {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--accent-colour);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addToCart:hover {
+    background-color: #0056b3;
+  }
+  
+  .variations {
+    display: none;
+  }

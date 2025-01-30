@@ -1,0 +1,351 @@
+[
+    {
+      "id": 1,
+      "name": "Anniversary Cake",
+      "description": "A beautifully decorated cake perfect for celebrating anniversaries with your loved ones.",
+      "startingPrice": 4000,
+      "variations": [
+        { "type": "Chocolate", "priceAdjustment": 500 },
+        { "type": "Vanilla", "priceAdjustment": 300 }
+      ],
+      "tags": ["anniversary"],
+      "imageSrc": "../assets/cakes/anniversary1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Birthday Cake",
+      "description": "A delightful birthday cake to make your celebrations extra special.",
+      "startingPrice": 2200,
+      "variations": [
+        { "type": "Red Velvet", "priceAdjustment": 400 },
+        { "type": "Fruit", "priceAdjustment": 300 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday Cake",
+      "description": "A delicious birthday cake with customizable designs and flavors.",
+      "startingPrice": 2300,
+      "variations": [
+        { "type": "Strawberry", "priceAdjustment": 300 },
+        { "type": "Lemon", "priceAdjustment": 200 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday Cake",
+      "description": "A classic birthday cake made with love and premium ingredients.",
+      "startingPrice": 2100,
+      "variations": [
+        { "type": "Carrot", "priceAdjustment": 300 },
+        { "type": "Vanilla", "priceAdjustment": 200 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday Cake",
+      "description": "A vibrant birthday cake with customizable frosting colors.",
+      "startingPrice": 2400,
+      "variations": [
+        { "type": "Chocolate", "priceAdjustment": 400 },
+        { "type": "Lemon", "priceAdjustment": 300 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday4.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Birthday Cake",
+      "description": "A fun birthday cake with sprinkles and colorful designs.",
+      "startingPrice": 2000,
+      "variations": [
+        { "type": "Funfetti", "priceAdjustment": 300 },
+        { "type": "Chocolate", "priceAdjustment": 400 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Birthday Cake",
+      "description": "A creamy birthday cake with a choice of fruit or chocolate fillings.",
+      "startingPrice": 2500,
+      "variations": [
+        { "type": "Fruit", "priceAdjustment": 400 },
+        { "type": "Chocolate", "priceAdjustment": 500 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Birthday Cake",
+      "description": "A layered birthday cake with rich cream and delicious frosting.",
+      "startingPrice": 2300,
+      "variations": [
+        { "type": "Vanilla", "priceAdjustment": 200 },
+        { "type": "Red Velvet", "priceAdjustment": 400 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday7.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Birthday Cake",
+      "description": "A colorful birthday cake with rainbow layers and sweet frosting.",
+      "startingPrice": 2400,
+      "variations": [
+        { "type": "Rainbow", "priceAdjustment": 500 },
+        { "type": "Vanilla", "priceAdjustment": 300 }
+      ],
+      "tags": ["birthday"],
+      "imageSrc": "../assets/cakes/birthday8.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Cupcake",
+      "description": "A single cupcake that's as delicious as it is adorable.",
+      "startingPrice": 800,
+      "variations": [
+        { "type": "Chocolate", "priceAdjustment": 100 },
+        { "type": "Vanilla", "priceAdjustment": 50 }
+      ],
+      "tags": ["cupcake"],
+      "imageSrc": "../assets/cakes/cupcakes.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Themed Cake",
+      "description": "A creative themed cake to suit any occasion or interest.",
+      "startingPrice": 5000,
+      "variations": [
+        { "type": "Superhero", "priceAdjustment": 800 },
+        { "type": "Cartoon", "priceAdjustment": 600 }
+      ],
+      "tags": ["themed"],
+      "imageSrc": "../assets/cakes/theme1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Themed Cake",
+      "description": "An artistic themed cake for special events or parties.",
+      "startingPrice": 4800,
+      "variations": [
+        { "type": "Galaxy", "priceAdjustment": 1000 },
+        { "type": "Unicorn", "priceAdjustment": 800 }
+      ],
+      "tags": ["themed"],
+      "imageSrc": "../assets/cakes/theme2.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Themed Cake",
+      "description": "A one-of-a-kind themed cake for movie nights or fandom parties.",
+      "startingPrice": 5200,
+      "variations": [
+        { "type": "Movie Theme", "priceAdjustment": 1000 },
+        { "type": "Music Theme", "priceAdjustment": 900 }
+      ],
+      "tags": ["themed"],
+      "imageSrc": "../assets/cakes/theme3.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Themed Cake",
+      "description": "A personalized themed cake for baby showers or kid's parties.",
+      "startingPrice": 4600,
+      "variations": [
+        { "type": "Baby Shower", "priceAdjustment": 600 },
+        { "type": "Kids Theme", "priceAdjustment": 700 }
+      ],
+      "tags": ["themed"],
+      "imageSrc": "../assets/cakes/theme4.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Birthday Cake",
+        "description": "A delightful birthday cake to make your celebrations extra special.",
+        "startingPrice": 2200,
+        "variations": [
+          { "type": "Red Velvet", "priceAdjustment": 400 },
+          { "type": "Fruit", "priceAdjustment": 300 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday9.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Birthday Cake",
+        "description": "A delicious birthday cake with customizable designs and flavors.",
+        "startingPrice": 2300,
+        "variations": [
+          { "type": "Strawberry", "priceAdjustment": 300 },
+          { "type": "Lemon", "priceAdjustment": 200 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday10.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Birthday Cake",
+        "description": "A classic birthday cake made with love and premium ingredients.",
+        "startingPrice": 2100,
+        "variations": [
+          { "type": "Carrot", "priceAdjustment": 300 },
+          { "type": "Vanilla", "priceAdjustment": 200 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday11.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Birthday Cake",
+        "description": "A vibrant birthday cake with customizable frosting colors.",
+        "startingPrice": 2400,
+        "variations": [
+          { "type": "Chocolate", "priceAdjustment": 400 },
+          { "type": "Lemon", "priceAdjustment": 300 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday12.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Birthday Cake",
+        "description": "A fun birthday cake with sprinkles and colorful designs.",
+        "startingPrice": 2000,
+        "variations": [
+          { "type": "Funfetti", "priceAdjustment": 300 },
+          { "type": "Chocolate", "priceAdjustment": 400 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday13.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Birthday Cake",
+        "description": "A creamy birthday cake with a choice of fruit or chocolate fillings.",
+        "startingPrice": 2500,
+        "variations": [
+          { "type": "Fruit", "priceAdjustment": 400 },
+          { "type": "Chocolate", "priceAdjustment": 500 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday14.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Birthday Cake",
+        "description": "A layered birthday cake with rich cream and delicious frosting.",
+        "startingPrice": 2300,
+        "variations": [
+          { "type": "Vanilla", "priceAdjustment": 200 },
+          { "type": "Red Velvet", "priceAdjustment": 400 }
+        ],
+        "tags": ["birthday"],
+        "imageSrc": "../assets/cakes/birthday15.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Themed Cake",
+        "description": "A creative themed cake to suit any occasion or interest.",
+        "startingPrice": 5000,
+        "variations": [
+          { "type": "Superhero", "priceAdjustment": 800 },
+          { "type": "Cartoon", "priceAdjustment": 600 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme5.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Themed Cake",
+        "description": "An artistic themed cake for special events or parties.",
+        "startingPrice": 4800,
+        "variations": [
+          { "type": "Galaxy", "priceAdjustment": 1000 },
+          { "type": "Unicorn", "priceAdjustment": 800 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme6.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Themed Cake",
+        "description": "A one-of-a-kind themed cake for movie nights or fandom parties.",
+        "startingPrice": 5200,
+        "variations": [
+          { "type": "Movie Theme", "priceAdjustment": 1000 },
+          { "type": "Music Theme", "priceAdjustment": 900 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme7.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Themed Cake",
+        "description": "A personalized themed cake for baby showers or kid's parties.",
+        "startingPrice": 4600,
+        "variations": [
+          { "type": "Baby Shower", "priceAdjustment": 600 },
+          { "type": "Kids Theme", "priceAdjustment": 700 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme8.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Themed Cake",
+        "description": "A creative themed cake to suit any occasion or interest.",
+        "startingPrice": 5000,
+        "variations": [
+          { "type": "Superhero", "priceAdjustment": 800 },
+          { "type": "Cartoon", "priceAdjustment": 600 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme9.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Themed Cake",
+        "description": "An artistic themed cake for special events or parties.",
+        "startingPrice": 4800,
+        "variations": [
+          { "type": "Galaxy", "priceAdjustment": 1000 },
+          { "type": "Unicorn", "priceAdjustment": 800 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme10.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Themed Cake",
+        "description": "A one-of-a-kind themed cake for movie nights or fandom parties.",
+        "startingPrice": 5200,
+        "variations": [
+          { "type": "Movie Theme", "priceAdjustment": 1000 },
+          { "type": "Music Theme", "priceAdjustment": 900 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme11.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Themed Cake",
+        "description": "A personalized themed cake for baby showers or kid's parties.",
+        "startingPrice": 4600,
+        "variations": [
+          { "type": "Baby Shower", "priceAdjustment": 600 },
+          { "type": "Kids Theme", "priceAdjustment": 700 }
+        ],
+        "tags": ["themed"],
+        "imageSrc": "../assets/cakes/theme12.jpg"
+      }
+  ]
+  
