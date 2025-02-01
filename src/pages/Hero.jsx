@@ -3,8 +3,8 @@ import ShoppingCard from '../components/ShoppingCard'
 import Footer from "../components/Footer";
 import '../CSS/Hero.css';
 import { useRef } from "react";
-import data from '../assets/cakes.json'
-
+import data from '../assets/cakes.json';
+import banner from '../assets/valentine-banner.jpg';
 
 function Hero() {
 
@@ -28,7 +28,10 @@ function Hero() {
             </div>
         </section>
         <hr/>
-        <h1 className="miniShopIntro">Check out some of our treats</h1>
+        <h1 className="miniShopIntro">Valentines Day Offers</h1>
+        <div className="banner">
+            <img src={banner} alt="Valentine Banner"/>
+        </div>
         <section className="miniShop" ref={shopRef}>
                 {data.map((cake) => (
                     <ShoppingCard
