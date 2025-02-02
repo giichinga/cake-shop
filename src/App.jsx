@@ -5,7 +5,9 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
 
+
   return (
+
     <>
       <BrowserRouter>
         <Routes>
@@ -14,7 +16,8 @@ function App() {
           <Route path="/product" element={<ProductPage />} />
         </Routes>
       </BrowserRouter>   
-    
+
+      
     </>
   )
 }

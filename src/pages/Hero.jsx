@@ -32,7 +32,8 @@ function Hero() {
         <div className="banner">
             <img src={banner} alt="Valentine Banner"/>
         </div>
-        <section className="miniShop" ref={shopRef}>
+
+                 <section className="miniShop" ref={shopRef}>
                 {data.map((cake) => (
                     <ShoppingCard
                     key={cake.id}

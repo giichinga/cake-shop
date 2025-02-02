@@ -10,15 +10,15 @@ function ProductPage() {
   const item = data.find((cake) => cake.id === Number(itemKey));
 
   const [selectedWeight, setSelectedWeight] = useState("1kg");
-  const [cartItems, setCartItems] = useState([]); // State to manage cart items
+  const [cartItems, setCartItems] = useState([]); 
 
-  // Load the cart from localStorage on initial render
+  
   useEffect(() => {
     const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
     setCartItems(savedCart);
   }, []);
 
-  // Save the cart to localStorage whenever it changes
+
   useEffect(() => {
     if (cartItems.length > 0) {
       localStorage.setItem("cart", JSON.stringify(cartItems));
@@ -29,12 +29,11 @@ function ProductPage() {
     setSelectedWeight(weight);
   }
 
-  // Function to add item to the cart
+  
   const addToCart = () => {
     const existingItem = cartItems.find((cartItem) => cartItem.id === item.id && cartItem.selectedWeight === selectedWeight);
 
     if (existingItem) {
-      // If item with selected weight already exists in the cart, increase the quantity
       setCartItems(prevCart =>
         prevCart.map(cartItem =>
           cartItem.id === item.id && cartItem.selectedWeight === selectedWeight
@@ -43,12 +42,10 @@ function ProductPage() {
         )
       );
     } else {
-      // If item doesn't exist, add it to the cart with the selected weight
       setCartItems([...cartItems, { ...item, selectedWeight, qty: 1 }]);
     }
   };
 
-  // Function to remove item from the cart
   const removeItem = (itemId, selectedWeight) => {
     const updatedCart = cartItems.filter(
       (cartItem) => !(cartItem.id === itemId && cartItem.selectedWeight === selectedWeight)
