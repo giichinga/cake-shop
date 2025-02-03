@@ -11,12 +11,9 @@ function NavBar() {
                     <a href='/'><img src={logo} alt="logo" /></a>
                 </div>
                 <div className="navLeft">
-                    <a href="#">All Cakes</a>
-                    <a href="#">Birthday Cakes</a>
-                    <a href="#">Wedding Cakes</a>
-                    <a href="#">Themed Cakes</a>
-                    <a href="#">Cupcakes</a>
-                    <a href="#">Add-ons</a>
+                    <a href="/all">All Cakes</a>
+                    <a href="/birthday">Birthday Cakes</a>
+                    <a href="/themed">Themed Cakes</a>
                 </div>
                
                 <div className="navRight">
