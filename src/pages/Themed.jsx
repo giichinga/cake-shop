@@ -12,7 +12,7 @@ function Themed() {
     return(
         <>
         <NavBar/>
-        <h1 className='miniShopIntro'>All Cakes</h1>
+        <h1 className='miniShopIntro'>Themed Cakes</h1>
         <section className='miniShop'>
         
         {

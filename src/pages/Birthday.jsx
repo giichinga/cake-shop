@@ -12,7 +12,7 @@ function Birthday() {
     return(
         <>
         <NavBar/>
-        <h1 className='miniShopIntro'>All Cakes</h1>
+        <h1 className='miniShopIntro'>Birthday Cakes</h1>
         <section className='miniShop'>
         
         {
