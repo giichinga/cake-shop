@@ -8,7 +8,7 @@
         { "type": "Chocolate", "priceAdjustment": 500 },
         { "type": "Vanilla", "priceAdjustment": 300 }
       ],
-      "tags": ["anniversary"],
+      "tags": ["anniversary", "special"],
       "imageSrc": "../assets/cakes/anniversary1.jpg"
     },
     {
@@ -32,7 +32,7 @@
         { "type": "Strawberry", "priceAdjustment": 300 },
         { "type": "Lemon", "priceAdjustment": 200 }
       ],
-      "tags": ["birthday"],
+      "tags": ["birthday", "special"],
       "imageSrc": "../assets/cakes/birthday2.jpg"
     },
     {
@@ -104,7 +104,7 @@
         { "type": "Rainbow", "priceAdjustment": 500 },
         { "type": "Vanilla", "priceAdjustment": 300 }
       ],
-      "tags": ["birthday"],
+      "tags": ["birthday", "special"],
       "imageSrc": "../assets/cakes/birthday8.jpg"
     },
     {
@@ -116,7 +116,7 @@
         { "type": "Chocolate", "priceAdjustment": 100 },
         { "type": "Vanilla", "priceAdjustment": 50 }
       ],
-      "tags": ["cupcake"],
+      "tags": ["cupcake", "special"],
       "imageSrc": "../assets/cakes/cupcakes.jpg"
     },
     {
@@ -284,7 +284,7 @@
           { "type": "Movie Theme", "priceAdjustment": 1000 },
           { "type": "Music Theme", "priceAdjustment": 900 }
         ],
-        "tags": ["themed"],
+        "tags": ["themed", "special"],
         "imageSrc": "../assets/cakes/theme7.jpg"
       },
       {

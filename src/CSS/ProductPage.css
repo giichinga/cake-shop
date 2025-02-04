@@ -61,9 +61,9 @@
 }
 
 .weightButton.selected {
-    background-color: #0056b3; 
+    background-color: var(--accent-colour); 
     color: white;
-    border-color: #0056b3;
+    border-color: var(--accent-colour);
     font-weight: bold;
 }
 

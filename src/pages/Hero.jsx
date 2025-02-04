@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import '../CSS/Hero.css';
 import { useRef } from "react";
 import data from '../assets/cakes.json';
-import banner from '../assets/valentine-banner.jpg';
+import { Parallax } from "react-parallax";  // npm install react-parallax
 
 function Hero() {
 
@@ -13,28 +13,40 @@ function Hero() {
         shopRef.current.scrollIntoView({behavior: 'smooth'});
         
     }
+
+    const specialCakes = data.filter(cakes => cakes.tags.includes('special'));
   
 
     return(
         <>
         <section className="hero">
             <NavBar/>
+            <Parallax bgImage="../src/assets/wedding-festive-multistorey-cake-white-tone_839035-562200.jpg" strength={100}>
             <div className="heroContent">
                 <h1>
                     Welcome to <span> Pat&apos;s Confectionery</span>
                 </h1>
                 <p>Your tastebuds have never had it so good!</p>
+                <div className="buttons">
+                <button className="enquireBtn">Enquire</button>
                 <button className="shopBtn" onClick={scrollToShop} >Order Now!</button>
-            </div>
-        </section>
-        <hr/>
-        <h1 className="miniShopIntro">Valentines Day Offers</h1>
-        <div className="banner">
-            <img src={banner} alt="Valentine Banner"/>
-        </div>
 
-                 <section className="miniShop" ref={shopRef}>
-                {data.map((cake) => (
+                </div>
+
+            </div>
+            <div className="custom-shape-divider-bottom-1738691148" >
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="shape-fill"></path>
+                </svg>
+            </div>
+
+            </Parallax>
+        </section>
+        <div className="shopWrapper" ref={shopRef} >
+        <h1>This Week Valentines Specials</h1>
+        <p>❤️Try this week signature selected cakes by our talented bakers to celebrate love❤️</p>
+         <section className="miniShop" >
+                {specialCakes.map((cake) => (
                     <ShoppingCard
                     key={cake.id}
                     itemId={cake.id}
@@ -44,6 +56,7 @@ function Hero() {
                     />
                 ))}
         </section>
+        </div>
 
         <hr/>
         <section className="about">

@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
+
+
 body {
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -14,7 +17,7 @@ body {
 
 :root {
     --font-colour: #444444;
-    --accent-colour: rgb(255, 41, 141);
+    --accent-colour: rgb(232, 56, 16);
 }
 
 button {

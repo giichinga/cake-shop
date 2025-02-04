@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
 
-
   return (
 
     <>
@@ -20,9 +19,7 @@ function App() {
           <Route path='/birthday' element={<Birthday/>}/>
           <Route path='/themed' element={<Themed/>}/>
         </Routes>
-      </BrowserRouter>   
-
-      
+      </BrowserRouter>    
     </>
   )
 }

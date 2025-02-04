@@ -24,7 +24,7 @@ function ShoppingCard(props) {
       />
       <p className="productName">{props.name}</p>
       <h2 className="productPrice">From Ksh. {props.price}</h2>
-      <button className="addToCart" onClick={saveSelected} >Add to Cart</button>
+      <button className="addToCart" onClick={saveSelected} >Order This</button>
     </div>
   );
 }

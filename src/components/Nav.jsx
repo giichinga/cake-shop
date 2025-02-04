@@ -1,11 +1,22 @@
-import '../CSS/Nav.css'
-import logo from '../assets/cake_logo.png'
-import cart from '../assets/cart.png'
+import '../CSS/Nav.css';
+import logo from '../assets/cake_logo.png';
+import cart from '../assets/cart.png';
+import { useState, useEffect } from 'react';
 
 function NavBar() {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          setScrolled(window.scrollY > window.innerHeight/6);
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
     return (
         <>
-        <nav>
+        <nav className={`${scrolled ? "shadow" : ""}`} >
             <div className="navWrapper">
                 <div className="logo">
                     <a href='/'><img src={logo} alt="logo" /></a>
